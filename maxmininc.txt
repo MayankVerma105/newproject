@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+int a, b, c;
+int max,min;
+    printf("Enter Number 1:",a);
+    scanf("%d", &a);
+    printf("Enter Number 2:",b);
+    scanf("%d", &b);
+    printf("Enter Number 3:",c);
+    scanf("%d", &c);
+
+    max = a;
+    min = b;
+    if (a<b)
+    {
+
+        max =b;
+        min =a;
+
+    }
+    if (max < c)
+        max = c;
+    if (c< min)
+        min = c;
+
+    printf("maximam between 3 numbers = %d\n ", max);
+    printf("minimum between 3 numbers = %d\n ", min);
+
+
+    return 0;
+
+
+
+    }
