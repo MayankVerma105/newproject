@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int num, pow;
+    int tempPow;
+    int result = 1;
+    printf("Enter a Number: ");
+    scanf("%d", &num);
+    printf("Enter a Power: ");
+    scanf("%d", &pow);
+    tempPow = pow;
+    while(pow >0 )
+    {
+        result = result * num;
+        pow--;
+    }
+
+    printf("%d ^ %d = %d\n", num, tempPow, result);
+
+    return 0;
+}

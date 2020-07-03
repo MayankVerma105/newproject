@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+   int a;
+   scanf("%d",&a);
+   if (a >= 60)
+    printf("Congratulations\n");
+   else
+    printf("Failed.. Try Again!\n");
+return 0;
+
+}
